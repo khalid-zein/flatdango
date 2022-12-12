@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: rgb(15, 8, 17);
+}
+.nav{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    border: 3px solid;
+    border-image: linear-gradient(45deg,rgb(89, 4, 117),yellow,red,rgb(171, 89, 199)) 1;
+    position: relative;
+    display: flex;
+}
+.nav img{
+    height: 99%;
+}
+.nav #header{
+    color: white;
+    font-size: 50px;
+    font-family: 'Rubik Distressed', cursive;
+    text-align: center;
+    padding-top: 1%;
+    margin-left: 3%;
+}
